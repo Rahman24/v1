@@ -1,0 +1,85 @@
+#edu {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  /* /* background: linear-gradient(to bottom, hsla(35, 64%, 88%, 0.22) 0%, #2b1b0cab 100%); */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position-x: center;
+  background-position-y: bottom; */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000000 150%);
+
+}
+
+.edu {
+  display: flex;
+  width: 100%;
+}
+
+.edu > .pic {
+  width: 30%;
+}
+
+.edu > .pic > img {
+  width: 100%;
+}
+
+.edu > .desc {
+  width: 70%;
+  margin: auto 4vw;
+  color: #010101;
+}
+
+#edu > .odd {
+  flex-direction: row;
+  text-align: right;
+  /* background-color: #f4e4cd; */
+}
+
+#edu > .even {
+  flex-direction: row-reverse;
+  text-align: left;
+  /* background-color: #f4e4cd; */
+}
+
+.edu > .desc > h2 {
+  /* font-size: 2vw; */
+  /* font-family: grandHotel; */
+  color: #018891;
+  margin: 2vw 0;
+}
+
+/* .edu > .desc > h3 { */
+  /* font-size: 1.5vw; */
+  /* margin: 0; */
+  /* text-shadow: 4px 4px 10px #018891; */
+/* } */
+
+/* .edu > .desc > p { */
+  /* font-size: 1vw; */
+  /* margin: 0; */
+  /* text-shadow: 4px 4px 10px #018891; */
+/* } */
+
+@media screen and (max-width:1000px) {
+  #edu > div {
+    flex-direction: column !important;
+  }
+  .edu > .pic, .edu > .desc {
+    width: auto;
+    text-align: left;
+  }
+  .edu > .desc {
+    padding: 3vw;
+    padding-bottom: 8vh;
+  }
+  .edu > .desc > h2 {
+    font-size: 8vw;
+  }
+  .edu > .desc > h3 {
+    font-size: 6vw;
+  }
+} 

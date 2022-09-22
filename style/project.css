@@ -1,0 +1,89 @@
+#project {
+  display: grid;
+  grid-template-areas:
+    "begin treehouse" 
+    "invictus treehouse" 
+    "invictus sdb" 
+    "atf sdb" 
+    "atf counter" 
+    "chem counter" 
+    "chem blog";
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+#project > div {
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000000 150%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: grid;
+  align-items: center;
+}
+
+#project > div > div {
+  margin: 3rem
+}
+
+.im {
+  display: flex;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.im > div {
+  width: 100%;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+}
+
+.im > div > a > img {
+  width: 15%;
+}
+
+.tab {
+  font-size: 1vw;
+  text-align: left;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+td {
+  padding: 0 1rem;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+@media screen and (max-width:1000px) {
+  #project {
+    display: flex ;
+  }
+  #project > div {
+    width: 100%;
+  }
+  #project > div > div {
+    margin: 3rem 1.5rem;
+  }
+  tr {
+    display: flex;
+    flex-flow: column;
+  }
+  td {
+    padding: 0.3rem 1rem;
+  }
+  td:last-child {
+    text-align: left;
+  }
+  .im > div > a > img {
+    width: 35%;
+  }
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Noufal Rahman Portfolio Website" />
+    <meta name="description" content="This is the portfolio website of Noufal Rahman" />
+    <meta name="author" content="Noufal Rahman" />
+    <meta name="keywords" content="noufal, rahman, noufal rahman, noufal portfolio, iitm, gct, invictus, iitmbsc, treehouse" />
+    <title>Noufal Rahman</title>
+    <link rel="preload" href="style/fonts/ABeeZee-Italic.ttf" />
+    <link rel="preload" href="style/fonts/ABeeZee-Regular.ttf" />
+    <link rel="preload" href="style/fonts/GothicA1-Regular.ttf" />
+    <link rel="preload" href="style/fonts/GrandHotel-Regular.ttf" />
+    <link rel="preload" href="style/fonts/Montserrat-Regular.ttf" />
+    <link rel="preload" href="style/fonts/PatrickHand-Regular.ttf" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/intro.css" />
+    <link rel="stylesheet" href="style/edu.css" />
+    <link rel="stylesheet" href="style/project.css" />
+    <link rel="stylesheet" href="style/skills.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+  </head>
+  <body>
+    <main>
+      <!-- <div id="header">
+        <div style="font-size: 1.5rem; padding: 1rem; display: inline-flex;">
+          <div style="width: 4%;"><img src="logo.webp" alt="Noufal Rahman" width="100%" /></div>
+          <h2>Noufal Rahman</h2>
+        </div>
+      </div> -->
+      <div id="premise">
+        <div class="intro">
+          <h2>Hi! I'm Noufal</h2>
+          <h1>I'm an aspiring web developer</h1>
+        </div>
+        <div class="intro-pic">
+          <img src="assets/images/intro.png" alt="intro" />
+          
+        </div>
+      </div>
+
+      <div id="about">
+        <h2>About me</h2>
+        <p>It's 2002 since I started feeling the Sun. From then, a little kid has grown up facsinating on how the internet and the web works.</p>
+        <p>It's at my age 16 when I developed a conscience about the future of web development and technologies. Back then, I started learning HTML which is my first step towards my passion. I learnt CSS and JS on the go. Once I had completed high school, I got plenty of time (thanks to covid) I learnt them much deeper, the best practices for development and tried out my so far knowledge in development.</p>
+        <p>Today with all the things I need in my hand, I'm efficiently learning and researching much more on the effective working of websites and servers. I believe together we can make the internet a safer place for everyone.</p>
+      </div>
+
+      <div class="head" style="color: white;background-image: url('assets/images/edu-bg.webp');">
+        <div>
+          <h2>Education</h2>
+          <h1>Purpose of education is to replace an empty mind with an open one</h1>
+        </div>
+      </div>
+      <div id="edu">
+        <div class="edu odd" style="background-color: #fefdee;">
+          <div class="pic">
+            <img src="assets/images/gct.png" alt="Government College of Technology, Coimbatore" />
+          </div>
+          <div class="desc">
+            <h2>Government College of Technology, Coimbatore</h2>
+            <h3>B. E. Computer Science and Engineering</h3>
+            <p>Diving into the world of Engineering where I get to learn about the fundamentals of Hardware and Software.</p>
+          </div>
+        </div>
+        <div class="edu even" style="background-color: #ebecee;">
+          <div class="pic">
+            <img src="assets/images/iitm.png" alt="Indian Institute of Technology Madras" />
+          </div>
+          <div class="desc">
+            <h2>Indian Institute of Technology Madras</h2>
+            <h3>B. Sc. Data Science and Programming</h3>
+            <p>Getting to know about Data Science and it's applications in different fields in the world.</p>
+          </div>
+        </div>
+        <div class="edu odd" style="background-color: #fff;">
+          <div class="pic">
+            <img src="assets/images/kvv.jpg" alt="KVV School" />
+          </div>
+          <div class="desc">
+            <h2>Karur Vetri Vinayaka Matric. Hr. Sec. School, Karur</h2>
+            <h3>HSC</h3>
+            <p>Indulged to know about the flora and fauna around us.</p>
+          </div>
+        </div>
+        <div class="edu even" style="background-color: #deedf2;">
+          <div class="pic">
+            <img src="assets/images/cheran.jpg" alt="Cheran" />
+          </div>
+          <div class="desc">
+            <h2>Cheran Matric. Hr. Sec. School, Karur</h2>
+            <h3>SSLC</h3>
+            <p>The first step in my education path.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="head" id="skills" style="background-image: url('assets/images/skill.jpg'); color: white; background-position: center;">
+        <div>
+          <h2>Skills</h2>
+          <h1>What we know is the least we can learn</h1>
+        </div>
+      </div>
+      <div class="skills">
+        <div style="grid-area: lang;">
+          <h2 style="text-align: center; margin: 2vw 0;">Languages</h2>
+          <div>
+            <h3>HTML</h3>
+            <progress max="100" value="0" id="html"></progress>
+          </div>
+          <div>
+            <h3>CSS</h3>
+            <progress max="100" value="0" id="css"></progress>
+          </div>
+          <div>
+            <h3>JavaScript</h3>
+            <progress max="100" value="0" id="js"></progress>
+          </div>
+          <div>
+            <h3>Python</h3>
+            <progress max="100" value="0" id="python"></progress>
+          </div>
+          <div>
+            <h3>C</h3>
+            <progress max="100" value="0" id="c"></progress>
+          </div>
+          <div>
+            <h3>C++</h3>
+            <progress max="100" value="0" id="c++"></progress>
+          </div>
+        </div>
+        <div style="grid-area: imp;">
+          <h2 style="text-align: center; margin: 2vw 0">Implementations</h2>
+          <div>
+            <h3>ReactJS</h3>
+            <progress max="100" value="0" id="react"></progress>
+          </div>
+          <div>
+            <h3>Bootstrap</h3>
+            <progress max="100" value="0" id="bootstrap"></progress>
+          </div>
+          <div>
+            <h3>Google Authentication</h3>
+            <progress max="100" value="0" id="auth"></progress>
+          </div>
+          <div>
+            <h3>Firebase Firestore</h3>
+            <progress max="100" value="0" id="firestore"></progress>
+          </div>
+          <div>
+            <h3>Cloud Storage</h3>
+            <progress max="100" value="0" id="storage"></progress>
+          </div>
+          <div>
+            <h3>Cloud Messaging</h3>
+            <progress max="100" value="0" id="fcm"></progress>
+          </div>
+        </div>
+      </div>
+
+      <div class="head" id="projects" style="background-image: url('assets/images/project.webp'); color: white;">
+        <div>
+          <h2>Projects</h2>
+          <h1>Projects are the best ways to practice what we've learnt</h1>
+        </div>
+      </div>
+      <div id="project">
+        <div style="grid-area: begin; background-color: #018891;">
+          <div style="margin: 8rem 3rem;">
+            <h2>Let's take a look on what I've done!</h2>
+          </div>
+        </div>
+        <div style="grid-area: treehouse; background-color: #2e2e2e;">
+          <div>
+            <h2>Treehouse</h2>
+            <p>Treehouse is the Student portal of the students of IITM BSc degree. The students can be able to view announcements, events and competitions and the Executive council members can be able to post them.</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, ReactJS, BootStrap</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>Firebase</p></td></tr>
+              <tr><td><h3>Implementations</h3></td><td><p>Authentication, Firestore</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="https://test.iitmbsc.org" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/treehouse" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div style="background-color: #063a50; grid-area: invictus;">     
+          <div>
+            <h2>Invictus</h2>
+            <p>Invictus Fest was conducted for the students of IITM BSc by Kaziranga, Namdapha and Wayanad houses from 28 August, 2021 to September 05, 2021</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, ReactJS, BootStrap</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>Firebase</p></td></tr>
+              <tr><td><h3>Implementations</h3></td><td><p>Authentication, Firestore, Cloud Messaging</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="https://invictus.fun" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/invictus" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div style="grid-area: sdb; background-color: #aac9db;">
+          <div>
+            <h2>Student Database Management Website</h2>
+            <p>This website can be used as a template for student database management. Students information and documents can be made available for faculties and office staffs whenever required</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, JS, CSS</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>Firebase</p></td></tr>
+              <tr><td><h3>Implementations</h3></td><td><p>Authentication, Firestore, Cloud Storage, PWA</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="https://gcesalem-edu.web.app" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/gcesalem-edu" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div style="grid-area: atf; background-color: #603d37;">
+          <div>
+            <h2>ATF Kart</h2>
+            <p>An online shopping website template. You can add items to sell as a seller and can add items to cart, buy them as a buyer</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, JS, CSS</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>Firebase</p></td></tr>
+              <tr><td><h3>Implementations</h3></td><td><p>Firestore, Cloud Storage</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="https://atf-kart.web.app" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/atf-kart" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div style="grid-area: counter; background-color: lightblue;">
+          <div>  
+            <h2>Counter</h2>
+            <p>JS based counting system. Stores your counts too with date and time. You can reset the counter anytime.</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, JS</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>GitHub</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="counter" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/counter" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div style="grid-area: chem; background-color: #4d084d;">
+          <div>
+            <h2>Chemistry for CSE</h2>
+            <p>Made for the students of CSE department of <a href="https:/gcesalem.edu.in">GCE Salem</a>. This website contains all the recorded classes of Chemistry.</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, JS, CSS</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>GitHub</p></td></tr>
+              <tr><td><h3>Implementations</h3></td><td><p>PWA, YouTube embed</p></td></tr>
+              <tr><td><h3>Videos hosted from:</h3></td><td><p>YouTube</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="chemistryforcse" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/chemistryforcse" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div>
+        <div style="grid-area: blog; background-color: #6f082b;">
+          <div>
+            <h2>Blogs</h2>
+            <p>The design of my blog site. Looking forward to write blogs in the near future.</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, JS, CSS, ReactJS</p></td></tr>
+              <!-- <tr><td><h3>Hosted on:</h3></td><td><p>GitHub</p></td></tr> -->
+            </table>
+            <p>Under the wraps for now!!</p>
+          </div>
+        </div>
+        <!-- <div style="grid-area: wa; background-color: #71d671;">
+          <div>
+            <h2>Whatsapp link generator</h2>
+            <p>Useful for those who need to send whatsapp message to unsaved contacts more frequently</p>
+            <table class="tab">
+              <tr><td><h3>Languages used:</h3></td><td><p>HTML, JS, CSS</p></td></tr>
+              <tr><td><h3>Hosted on:</h3></td><td><p>GitHub</p></td></tr>
+            </table>
+            <div class="im">
+              <div><a href="wa-link-generator" target="_blank"><img src="assets/icons/web.png" alt="web icon" /></a></div>
+              <div><a href="https://github.com/Rahman24/wa-link-generator" target="_blank"><img src="assets/icons/github.png" alt="github icon" /></a></div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="head" id="contact" style="background-image: url('assets/images/contact.jpg'); color: white; background-position-y: center; background-position-x: right;">
+        <div>
+          <h2>Contact</h2>
+          <h1>Let me know what you think!</h1>
+          <div class="contact-icons">
+            <div>
+              <a href="mailto:iam@noufal.me">
+                <img src="assets/icons/mail.png" alt="mail" />
+              </a>
+              <a href="https://linkedin.com/in/noufal-rahman">
+                <img src="assets/icons/linkedin.png" alt="linkedin" />
+              </a>
+              <a href="https://github.com/Rahman24">
+                <img src="assets/icons/github.png" alt="github" />
+              </a>
+              <a href="https://twitter.com/noufal0024">
+                <img src="assets/icons/twitter.png" alt="twitter" />
+              </a>
+              <a href="https://instagram.com/noufal0024">
+                <img src="assets/icons/instagram.png" alt="instagram" />
+              </a>
+              <a href="https://discourse.onlinedegree.iitm.ac.in/u/noufal0024/">
+                <img src="assets/icons/discourse.png" alt="discourse" />
+              </a>
+              <a href="https://wa.me/+918610023136">
+                <img src="assets/icons/whatsapp.png" alt="whatsapp" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="contact">
+        <div>
+          <div>
+            <h2>Address</h2>
+            <p>23C Municipal Colony,<br>Pasupathi Palayam,<br>Karur,<br>Tamil Nadu - 639004<br>India</p>
+          </div>
+          <div>
+            <h2>Mail</h2>
+            <p style="overflow-wrap: break-word;"><a href="mailto:jnrahman12@gmail.com">jnrahman12@gmail.com</a></p>
+          </div>
+          <div>
+            <h2>Phone</h2>
+            <p><a href="tel:+918610023136">+91 86100 23136</a></p>
+          </div>
+        </div>
+        <div class="contact-desk">
+          <a href="https://linkedin.com/in/noufal-rahman">
+            <div class="sm">
+              <div><img src="assets/icons/linkedin.png" alt="linkedin" /></div>
+              <div><h3>Noufal Rahman</h3></div>
+            </div>
+          </a>
+          <a href="https://github.com/Rahman24">
+            <div class="sm">
+              <div><img src="assets/icons/github.png" alt="github" /></div>
+              <div><h3>Rahman24</h3></div>
+            </div>
+          </a>
+          <a href="https://twitter.com/noufal0024">
+            <div class="sm">
+              <div><img src="assets/icons/twitter.png" alt="twitter" /></div>
+              <div><h3>noufal0024</h3></div>
+            </div>
+          </a>
+          <a href="https://instagram.com/noufal0024">
+            <div class="sm">
+              <div><img src="assets/icons/instagram.png" alt="instagram" /></div>
+              <div><h3>noufal0024</h3></div>
+            </div>
+          </a>
+          <a href="https://wa.me/+918610023136">
+            <div class="sm">
+              <div><img src="assets/icons/whatsapp.png" alt="whatsapp" /></div>
+              <div><h3>8610023136</h3></div>
+            </div>
+          </a>
+          <a href="https://discourse.onlinedegree.iitm.ac.in/u/noufal0024/">
+            <div class="sm">
+              <div><img width="100%" src="assets/icons/discourse.png" alt="discourse" /></div>
+              <div><h3>noufal0024</h3></div>
+            </div>
+          </a>
+        </div>
+        <div class="contact-mob">
+          <a href="https://linkedin.com/in/noufal-rahman">
+            <div class="sm">
+              <div><img src="assets/icons/linkedin.png" alt="linkedin" /></div>
+            </div>
+          </a>
+          <a href="https://github.com/Rahman24">
+            <div class="sm">
+              <div><img src="assets/icons/github.png" alt="github" /></div>
+            </div>
+          </a>
+          <a href="https://twitter.com/noufal0024">
+            <div class="sm">
+              <div><img src="assets/icons/twitter.png" alt="twitter" /></div>
+            </div>
+          </a>
+          <a href="https://instagram.com/noufal0024">
+            <div class="sm">
+              <div><img src="assets/icons/instagram.png" alt="instagram" /></div>
+            </div>
+          </a>
+          <a href="https://wa.me/+918610023136">
+            <div class="sm">
+              <div><img src="assets/icons/whatsapp.png" alt="whatsapp" /></div>
+            </div>
+          </a>
+          <a href="https://discourse.onlinedegree.iitm.ac.in/u/noufal0024/">
+            <div class="sm">
+              <div><img src="assets/icons/discourse.png" alt="discourse" /></div>
+            </div>
+          </a>
+        </div>        
+      </div> -->
+
+      <footer>
+        <span>Crafted with care</span><span>All rights reserved | Noufal Rahman</span>
+      </footer>
+
+    </main>
+
+    <script src="script/skills.js"></script>
+  </body>
+</html>

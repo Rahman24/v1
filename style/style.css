@@ -1,0 +1,123 @@
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/montserratHand-Regular.ttf);
+}
+
+@font-face {
+    font-family: gothic;
+    src: url(fonts/GothicA1-Regular.ttf);
+}
+
+@font-face {
+    font-family: abeezee;
+    src: url(fonts/ABeeZee-Regular.ttf);
+}
+
+@font-face {
+    font-family: grandHotel;
+    src: url(fonts/GrandHotel-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+body::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #aee8e2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #018891;
+    border-radius: 1vw;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #018891;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    /* transform: rotate(90deg); */
+    transition: 1s all;
+}
+
+.mp-zero {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: abeezee;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+.head {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.head > div {
+    background: linear-gradient(to bottom left, rgba(0,0,0,0) 0%, #000000 150%);
+    padding: 20vh 5vw;
+    margin: auto;
+}
+
+.head > div > h1 {
+    font-family: grandHotel;
+    /* font-size: 3vw; */
+    text-shadow: 4px 4px 10px black;
+}
+
+.head > div > h2 {
+    font-family: abeezee;
+    /* font-size: 2vw; */
+    margin: 1vw 0;
+    text-shadow: 4px 12px 13px #000;
+}
+
+@media screen and (max-width:1000px) {
+    h1 {
+        font-size: 12vw;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,50 @@
+.skills {
+    display: flex;
+}
+
+.skills > div {
+    padding: 5rem;
+    width: 50%;
+    justify-content: center;
+}
+
+.skills > div > div {
+    padding: 1rem 3rem;
+}
+
+progress {
+    height: 1vw;
+    border-radius: 50%;
+    width: 100%;
+    /* transition: width 5s ease; */
+    /* transform: rotate(270deg) */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #aee8e2;
+    border-radius: 5vw;
+    transition: 1s all;
+}
+
+progress::-webkit-progress-value {
+    background-color: #018891;
+    border-radius: 5vw;
+}
+
+@media screen and (max-width:1000px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    .skills > div {
+        width: auto;
+        padding: 2rem;
+    }
+    .skills > div > div {
+        padding: 1rem;
+    }
+    progress {
+        height: 4vw;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,44 @@
+.contact-icons {
+    margin: 2rem 0;
+}
+
+.contact-icons > div > a {
+    text-decoration: none;
+    display: inline;
+}
+
+.contact-icons > div > a > img {
+    width: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+footer {
+    background: linear-gradient(to left, rgba(0,0,0,0) 0%, #000000 200%);
+    background-color: #26313b;
+    margin: 0;
+    color: #fff;
+    font-size: smaller;
+    text-align: center;
+    /* padding: 1rem 0; */
+    display: flex;
+}
+
+footer > * {
+    width: 50%;
+    margin: 1rem;
+    text-align: left;
+}
+
+footer > *:last-child {
+    text-align: right;
+}
+
+/* @media screen and (max-width: 1000px) {
+    footer {
+        display: block;
+    }
+    footer > * {
+        text-align: center;
+    }
+} */
