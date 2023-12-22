@@ -2,10 +2,10 @@
 
 ## Welcome to my portfolio repository
 
-Take a look at my [GitHub Profile](https://github.com/Rahman24) or my [Projects](https://github.com/Rahman24?tab=repositories)
+Take a look at my [GitHub Profile](https://github.com/iamnoufal) or my [Projects](https://github.com/iamnoufal?tab=repositories)
 
-This website uses HTML, CSS, and a bit JS to make a little animations happen. I'm not a  fan of using Bootstrap in my website 🙂
+This website uses HTML, CSS, and a bit JS to make a little animations happen.
 
-### The website is hosted at [https://noufal.me](https://noufal.me)
+### The website is hosted at [https://v1.noufal.dev](https://v1.noufal.dev)
 
 Go to [License](LICENSE)
